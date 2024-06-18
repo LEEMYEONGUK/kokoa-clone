@@ -1,0 +1,29 @@
+.alert-relative {
+  position: relative;
+}
+
+.alert {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -10px;
+  bottom: 20px;
+}
+
+.alert-red {
+  margin-left: 3px;
+  padding: 1px;
+  border: 1px red solid;
+  border-radius: 50%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  color: red;
+  text-align: center;
+  font-weight: 500;
+}
